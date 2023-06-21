@@ -1,0 +1,13 @@
+package heranca;
+
+public class testapaciente {
+
+	public static void main(String[]args) {
+		paciente p1 = new paciente("hugo","porto",22,"11/11/2022");
+		p1.exibeinfo();
+		
+		System.out.println(" ");
+		pessoa p2 = new paciente("lais","marinho",21,"11/11/2022");
+		p2.exibeinfo();		
+	}
+}
